@@ -1,7 +1,7 @@
 import { protocolNec, generateIrSignal, decodeIrSignal } from "./index.js";
 
 // Generate IR signal
-let timing = generateIrSignal(protocolNec, 0x12345678, true);
+let timing = generateIrSignal(protocolNec, 0x12345678, false);
 console.log(timing);
 
 // Decode IR signal

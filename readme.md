@@ -15,12 +15,12 @@ Example:
 ```js
 import { protocolNec, generateIrSignal, decodeIrSignal } from "@toptensoftware/irlib";
 
-// Generate IR signal
+// Generate IR signal (returns an array of pulse/space pairs in microseconds)
 bool repeat = false;
 let timing = generateIrSignal(protocolNec, 0x12345678, repeat);
 console.log(timing);
 
-// Decode IR signal
+// Decode IR signal (returns an object { <protocolName>: <value> } or { <protocolName>: "repeat" })
 let decoded = decodeIrSignal(timing);
 console.log(decoded);
 ```

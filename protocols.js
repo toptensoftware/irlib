@@ -3,9 +3,9 @@ export let protocolNec = {
     bitCount: 32,
     length: 108000,
     header: [9000, 4500],
-    footer: [560],
-    one: [560, 2250],
-    zero: [560, 1125],
+    footer: [580],
+    one: [580, 1650],
+    zero: [580, 580],
     repeat: [9000, 2250, 560, 108000 - 9000 - 2250 - 560]
 }
 

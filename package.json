@@ -1,0 +1,19 @@
+{
+  "name": "@toptensoftware/irlib",
+  "description": "Node library for generating and decoding IR timing signals",
+  "version": "1.0.1",
+  "main": "index.js",
+  "type": "module",
+  "contributors": [
+    {
+      "name": "Brad Robinson",
+      "email": "contact@toptensoftware.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toptensoftware/irlib"
+  },
+  "author": "Topten Software",
+  "license": "MIT"
+}

@@ -3,10 +3,10 @@ export let protocolNec = {
     bitCount: 32,
     length: 108000,
     header: [9000, 4500],
-    footer: [580],
-    one: [580, 1650],
-    zero: [580, 580],
-    repeat: [9000, 2250, 560, 108000 - 9000 - 2250 - 560]
+    footer: [562],
+    one: [562, 1675],
+    zero: [562, 562],
+    repeat: [9000, 2250, 562, 108000 - 9000 - 2250 - 562]
 }
 
 export let protocolPana = {
